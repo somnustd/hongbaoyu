@@ -24,7 +24,7 @@ draw animated circular progress bar
     body.init();   //开始
 
 ### 提供的方法 ###
-######再来一次   body.restart();
+######   body.restart();   //再来一次
 
 
 
