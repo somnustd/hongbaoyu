@@ -2,7 +2,7 @@
 
 draw animated circular progress bar
 
-### html5 canvas 实现渐变进度条 ###
+### html5红包雨  结合pixi.js ###
 
 
 ![image](http://g.recordit.co/ATvGXbWb8v.gif)
