@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1.0,user-scalable=no">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        *{padding: 0;margin: 0;}
+        body,html{width: 100%;height: 100%;overflow: hidden;}
+        body{background: url("../images/body-bg.jpg") center center no-repeat;background-size: 100% 100%;width: 100%;height: 100%;overflow: hidden;}
+    </style>
+</head>
+<body>
+<script src="../js/pixi.min.js"></script>
+<script src="../js/index.js"></script>
+<script>
+
+    var body = new Body({
+        countTime:10, //倒计时时间
+        success:function(result){
+            //倒计时结束后   （result=点击个数）
+            alert("欧耶");
+        },
+        error:function(){
+            //碰到炸弹
+            alert("你个loser!!!");
+        }
+    });
+
+    body.init();
+    //body.restart();//重新开始
+
+</script>
+</body>
+</html>
